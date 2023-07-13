@@ -1,0 +1,3 @@
+﻿  ProductListing.cpp
+W:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\variant(13): warning STL4038: The contents of <variant> are available only with C++17 or later.
+  ProductListing.vcxproj -> X:\Git\Projects\C++\ProductListing\x64\Debug\ProductListing.exe
