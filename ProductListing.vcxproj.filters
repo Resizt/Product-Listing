@@ -13,10 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\curl">
+      <UniqueIdentifier>{01b72e53-f750-49bb-9274-550984f6a49c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ProductListing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shipping_cost.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curl.h">
+      <Filter>Source Files\curl</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -7,6 +7,9 @@
 #include <cstdlib>
 #include <variant>
 
+// Import custom file for shipping cost
+#include "shipping_cost.h"
+
 using namespace std;
 
 struct product 
@@ -118,6 +121,9 @@ int main()
         case 4:
             cout << "Shipping level\n1. North America/Canada\n2. International" << endl;
             cin >> choice;
+
+            // Call to external file
+            cost(choice);
             system("pause");
             break;
         case 5:

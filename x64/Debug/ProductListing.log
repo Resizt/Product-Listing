@@ -1,3 +1,11 @@
 ﻿  ProductListing.cpp
-W:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\variant(13): warning STL4038: The contents of <variant> are available only with C++17 or later.
-  ProductListing.vcxproj -> X:\Git\Projects\C++\ProductListing\x64\Debug\ProductListing.exe
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\variant(13): warning STL4038: The contents of <variant> are available only with C++17 or later.
+ProductListing.obj : error LNK2019: unresolved external symbol __imp_curl_global_init referenced in function "int __cdecl cost(int)" (?cost@@YAHH@Z)
+ProductListing.obj : error LNK2019: unresolved external symbol __imp_curl_global_cleanup referenced in function "int __cdecl cost(int)" (?cost@@YAHH@Z)
+ProductListing.obj : error LNK2019: unresolved external symbol __imp_curl_easy_strerror referenced in function "int __cdecl cost(int)" (?cost@@YAHH@Z)
+ProductListing.obj : error LNK2019: unresolved external symbol __imp_curl_easy_init referenced in function "int __cdecl cost(int)" (?cost@@YAHH@Z)
+ProductListing.obj : error LNK2019: unresolved external symbol __imp_curl_easy_setopt referenced in function "int __cdecl cost(int)" (?cost@@YAHH@Z)
+ProductListing.obj : error LNK2019: unresolved external symbol __imp_curl_easy_perform referenced in function "int __cdecl cost(int)" (?cost@@YAHH@Z)
+ProductListing.obj : error LNK2019: unresolved external symbol __imp_curl_easy_cleanup referenced in function "int __cdecl cost(int)" (?cost@@YAHH@Z)
+ProductListing.obj : error LNK2019: unresolved external symbol __imp_curl_easy_getinfo referenced in function "int __cdecl cost(int)" (?cost@@YAHH@Z)
+C:\Users\gjackson\Documents\GitHub\Product-Listing\x64\Debug\ProductListing.exe : fatal error LNK1120: 8 unresolved externals
